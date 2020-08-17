@@ -2,10 +2,8 @@ import axios from "axios";
 
 // put your api keys in .env file you can get those here - https://developers.google.com/youtube/v3/getting-started
 export const selectRandomKey = () => {
-  const keys = ["AIzaSyBQOrIXNurhz4htG_ThVh-hQGbHCSAb_8U"] //we are splitting the api keys to make an array
+  const keys = process.env.REACT_APP_YouTube_Keys.split(" "); //we are splitting the api keys to make an array
   const random = Math.floor(Math.random() * Math.floor(keys.length)); //this will get a random number
-  console.log("Random Value:", random);
-  console.log("Keys random:", keys[random]);
   return keys[random];
 };
 
