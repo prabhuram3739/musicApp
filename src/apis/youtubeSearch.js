@@ -14,5 +14,6 @@ export default axios.create({
     videoCategoryId: "10",
     type: "video",
     key: selectRandomKey()
-  }
+  },
+  headers: {"Access-Control-Allow-Origin": "*"}
 });
