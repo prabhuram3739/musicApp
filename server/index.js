@@ -6,6 +6,7 @@ const cors_proxy = require('cors-anywhere');
 const rateLimit = require("express-rate-limit");
 
 const app = express();
+app.use(cors());
 
 const limiter = rateLimit({
   windowMs: 1 * 60 * 1000, // 10 minutes 20 request
