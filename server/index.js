@@ -15,8 +15,7 @@ const limiter = rateLimit({
 //  apply to all requests
 app.use(limiter);
 
-var allowedOrigins = ['http://localhost:3000',
-  'https://ylight.xyz'];
+var allowedOrigins = ['http://localhost:3002', 'https://prabhuram3739.github.io/musicApp/', '*', 'https://ylight.xyz'];
 
 app.use(cors({
   origin: function (origin, callback) {
