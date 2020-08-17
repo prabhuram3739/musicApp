@@ -8,5 +8,6 @@ export default axios.create({
     part: "snippet",
     maxResults: "15",
     key: selectRandomKey()
-  }
+  },
+  headers: {"Access-Control-Allow-Origin": "*"}
 });

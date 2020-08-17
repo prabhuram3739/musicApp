@@ -8,5 +8,6 @@ export default axios.create({
     hl: "en", // Language
     ds: "yt", // Restrict lookup to youtube
     client: "youtube" // force youtube style response, i.e. jsonp
-  }
+  },
+  headers: {"Access-Control-Allow-Origin": "*"}
 });
