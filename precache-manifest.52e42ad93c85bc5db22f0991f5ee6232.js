@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4e04a48cbe29d5e36aa07c7a941b47d2",
+    "revision": "1d096e18964cfff55d1f1feafda01b54",
     "url": "/musicApp/index.html"
   },
   {
@@ -12,7 +12,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/musicApp/static/css/3.90604cca.chunk.css"
   },
   {
-    "revision": "830ef254605df528698c",
+    "revision": "ff3d5fdec5e8ecd4cafe",
     "url": "/musicApp/static/css/main.d5cfdca2.chunk.css"
   },
   {
@@ -56,8 +56,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/musicApp/static/js/9.57c00860.chunk.js"
   },
   {
-    "revision": "830ef254605df528698c",
-    "url": "/musicApp/static/js/main.ed80f70f.chunk.js"
+    "revision": "ff3d5fdec5e8ecd4cafe",
+    "url": "/musicApp/static/js/main.965c063f.chunk.js"
   },
   {
     "revision": "eb1bd6c73f3d0b804b1c",
